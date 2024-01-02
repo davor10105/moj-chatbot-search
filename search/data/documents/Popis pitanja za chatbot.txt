@@ -1,0 +1,107 @@
+ePredmet
+1. Zašto ne mogu pronaæi  predmet?
+> Zbog sigurnosnih razloga, u ovoj bazi podataka nije moguæe pronaæi kaznene i prekršajne maloljetnièke predmete, predmete istrage i ratnih zloèina te predmete iz nadležnosti USKOK-a.
+
+2. Zašto ne mogu pronaæi Z predmet?
+> Zemljišnoknjižni predmeti nisu dostupni u ovoj bazi podataka, jer se vode u zasebnom sustavu te se oni mogu pratiti na poveznici https://oss.uredjenazemlja.hr/.
+
+3. Informacije o predmetu
+> ePredmet je javna i besplatna usluga strankama, punomoænicima i drugim zainteresiranim osobama  koje sudjeluju u sudskim postupcima, a obuhvaæa predmete opæinskih, županijskih, upravnih, trgovaèkih sudova, Visokog prekršajnog suda, Visokog trgovaèkog suda, Visokog upravnog suda, Visokog kaznenog suda i Vrhovnog suda RH.  
+Na Internet stranici http://e-predmet.pravosudje.hr/?q=pretraga biranjem nadležnog suda sa padajuæeg izbornika i upisom toènog broja predmeta, možete vidjeti status vašeg predmeta.
+Ministarstvo pravosuða i uprave kao najviše tijelo za obavljanje pravosudne uprave osigurava samo tehnièke preduvjete za javnu i besplatnu uslugu ePredmet.
+Svoje predmete sa svim detaljima i sadržajem pismena možete vidjeti i preko usluge eKomunikacija https://usluge.pravosudje.hr/komunikacija-sa-sudom/.
+Za sve dodatne informacije obratite se nadležnom sudu telefonom, pisanim podneskom na broj spisa ili osobnim odlaskom na sud u uredovno vrijeme za stranke. Kontakti sudova dostupni su na stranici https://sudovi.hr/
+Ako je predmet kod javnog bilježnika obratite se njemu. Popis svih Javnih bilježnika  sa njihovim kontaktima možete pronaæi na stranici https://www.hjk.hr/uredi.
+4. Poštovani, možete mi pojasniti o èemu se radi u mom predmetu.Oznaka:Ovrv-76195/2022, Sud: Opæinski graðanski sud u Zagrebu
+> Za sve dodatne informacije obratite se nadležnom sudu telefonom, pisanim podneskom na broj spisa ili osobnim odlaskom na sud u uredovno vrijeme za stranke. Kontakti sudova dostupni su na stranici https://sudovi.hr/
+ 
+> Ako je predmet kod javnog bilježnika obratite se njemu. Popis svih Javnih bilježnika  sa njihovim kontaktima možete pronaæi na stranici https://www.hjk.hr/uredi
+5. Ne mogu vidjeti sadržaj?
+> e-Predmet je usluga preko koje ne možete vidjeti sadržaj samog predmeta veæ popis radnji i pismena te osnovnih podataka o predmetu.
+
+6. Ne mogu upisati captchu
+> Niste toèno popunili sva polja. Provjerite upis još jednom.
+> Ukoliko prijava ne prolazi dostavite sliku ekrana na mail adresu e-predmet@mpu.hr 
+
+7. u sustavu e-graðani Captcha za provjeru e-predmeta MInistarstva pravosuða  ne funkcionira. Stalno javlja da slijed brojeva i slova nije toèno ispunjen, a ispunjen je jer nekoliko puta provjerim.Inaèe je taj sustav jako loš jer su slova teško èitljiva i vrlo èesto unatoè toènom upisu kombinacije brojeva i slova (više puta provjerenom ) sustav javlja da nije toèno. Danas dodatno javlja da postoje neke poteškoæe u funkcioniranju pa molim da se to popravi jer se radi o pravosudnim predmetima, konkretno o ovrhama, gdje zbog nefunkcionalnosti sustava neki ljudi mogu imati ozbiljnih problema.
+> zahvaljujemo na prijavi. Poteškoæu smo proslijedili programerima. Obavijestit æemo vas nakon što zaprimimo odgovor programera.
+
+8. Ovim putem želim uložiti žalbu na rad vašeg sustava za slanje obavijesti putem korisnièkog pretinca e-graðana. Protiv nekoliko osoba u stambenoj zgradi gdje sam suvlasnik stana vodi se ovršni postupak. Putem m-pretinca informiran sam o svakoj promijeni u njihovom sudskom postupku. Kako bi se uvjerio radi li se o kakvom sudskom postupku protiv mene, svaki puta moram prolaziti iscrpan proces dio kojega je autentifikacija i pretipkavanja captcha-e. Dolje ispod teksta e-maila nalazi se snimak ekrana koji prikazuje dotiène pristigle poruke.Sve to uzrokuje mi nepotreban dodatni stres i zatrpava mi sanduèiæ u kojem mi je teško pronaæi obavijesti upuæene meni.Možete li molim Vas riješiti problem?
+> u ovom trenutku sustav je ureðen na naèin da se obavijesti o svim promjenama u predmetu šalju svim strankama u postupku. U tijeku je projekt u sklopu kojeg æe biti doraðena i moguænost iskljuèivanja obavijesti za odreðene predmete. Predviðeno trajanje projekta je do kraja 2024. godine, ali raèunamo da æe ova funkcionalnost biti i ranije dostupna. U ovom trenutku Vam ne možemo reæi preciznije kada æe to biti.
+9. Upisani su moji podaci a to nisam ja
+
+Postovani,
+U osobnim porukama na portalu e-gradjani vidim poruke o izmjenama u nekom (meni nepoznatom) sudskom predmetu:
+
+Ne znam o kakvom se tu predmetu radi pa bih volio saznati.
+
+
+Kad kliknem na taj link otvori mi se predmet, ali opet ne uspijevam saznati o èemu se radi:
+Pokusao sam kliknuti na detalje e-komunikacije ali te stranice ne rade:
+
+Nisam dosad nikad imao nešto slièno pa sam sad prilicno zabrinut.Kako mogu saznati o cemu se tu radi?
+
+> Za sve dodatne informacije obratite se nadležnom sudu telefonom, pisanim podneskom na broj spisa ili osobnim odlaskom na sud u uredovno vrijeme za stranke. Kontakti sudova dostupni su na stranici https://sudovi.hr/
+e-Ovrhe
+1. Pitanje korisnika: 
+Prije odreðenog vremena izradio sam prijedlog za ovrhu i uputio ga sudu. Danas mi je stiglo rješenje javnog bilježnika kojim me poziva na ispravak prijedloga za ovrhu na naèin da kod ovrhovoditelja naznaèim zakonskog zastupnika. Ljubazno Vas molim informaciju na koji naèin mogu urediti veæ poslani PDF (prijedlog za ovrhu) bez da izradim novi, i poslati ga javnom bilježniku.
+
+Bit pitanja: Kako izraditi ispravak ovršnog prijedloga?
+
+Odgovor: 
+U korisnièkom priruèniku (u privitku), poglavlje 5. imate detaljno opisano kako se predaje ispravak ovršnog prijedloga.
+
+2. Pitanje korisnika:
+Imam problem sa potpisivanjem prijedloga za ovrhu!
+U fini je sve u redu i odgovorili su da provjerim sa servisom na kojem potpisujem.
+Molim za pomoæ
+
+
+ 	Odgovor:
+Dostavite nam potpisani prijedlog za koji vam ovo javlja kako bi provjerili u èemu je problem.
+      Korisnik:
+Dostavlja dokument (Jovan Munižaba DZO..).
+	Odgovor: Dokument ste potpisali autentifikacijskim certifikatom, umjesto potpisnim. Iznova preuzmite PDF i potpišite ispravnim certifikatom.
+
+U privitku je uputa kako prepoznati koji od 2 certifikata koristiti (Kako prepoznati koji certifikat je potpisni).
+ILI
+
+      Korisnik:
+Dostavlja dokument (Prijedlog (1500)).
+	Odgovor: 
+Prije nekog vremena (sredinom prosinca) išla je nadogradnji sustava koju je implementirao Središnji državni ured za razvoj digitalnog društva na sustav e/m-Potpis i e/m-Peèat, a koja se povlaèi i kod nas.
+Naime eIDAS Uredba i Pravilnik o izmjenama i dopunama pravilnika o obrascima u ovršnom postupku, naèinu elektronièke komunikacije izmeðu sudionika i naèinu dodjele predmeta u rad javnom bilježniku traže kvalificirani elektronièki potpis, koji je pandan vlastoruènom potpisu.
+Potpis tipa "Advanced Electronic Signature supported by a Qualified Certificate" nije kvalificirani potpis.
+Rješenje problema je da od FINA-e pribavite QSCD ureðaj. Naime, Vi imate stari USB ureðaj na kojem je samo produljen certifikat, a na takvim ureðajima nisu kvalificirani elektronièki potpisi, nego napredni.
+Zahtjev unatoè tome možete poslati kako i poruka sugerira.
+Odgovarajuæi certifikat s QSCD ureðaja trebao bi imati Policy OID "1.3.124.1104.5.12.12.8.2", a to ovdje nije sluèaj.
+
+
+3. Zahtjev 59257-2023 je uredno kreiran temeljem predanog prijedloga 63367-2023, no kod predaje zahtjeva FINA-i i pregleda prije predaje javlja se opis greške:
+Zahtjev sadrži greške navedene u nastavku.
+Popis grešaka
+Prijedlog 63367-2023 - 3436 - Predmet ovrhe treba biti Ovrha opæenito na imovini ili Novèana tražbina po raèunu kod banke. - Ovršenik sa rednim brojem 1.
+Molim Vas uputu što trebamo uèiniti kako bi mogli predati zahtjev bez greške ili nas uputite kome da se javimo.
+      Odgovor:
+Ne radi se o nikakvoj grešci kod nas, nego ste u ovršnom prijedlogu podnijeli pogrešno sredstvo ovrhe na kojem FINA ne provodi ovrhu.
+Ako ovrhovoditelj podnese prijedlog za ovrhu npr. na novèanoj tražbini, i javni bilježnik takov rješenje izda, isto nije provedivo na FINA-i, jer Fina provodi ovrhu samo kad je predmet ovrhe ovrha opæenito na imovini ili novèana tražbina po raèunu kod banke. To je razlog da ovrhovoditelj dobiva dolje opisanu grešku. 
+Rješenje o ovrsi je doneseno sukladno prijedlogu, to je valjan predmet ovrhe, ali sada ovrhovoditelj ne može predati zahtjev za naplatu na FINA. U ovom konkretnom sluèaju, kako bi realizirali rješenje možete iæi na ovrhu na plaæi kod poslodavca ili mirovini kod HZMO-a. A ako želite provedbu na FINA-i možete predložiti promjenu predmeta i sredstva ovrhe u skladu s odredbama OZ-a u posebnom postupku pred sudom.
+4.  Dana 22.04.2023. godine umjesto nadopune Prijedloga za ovrhu Ovrv-2488/2022 od 25.10.2022. godine koji se vodi kod Javne bilježnice Eda Biondiæ u Senju, u sustav e-ovrhe greškom smo poslali taj (postojeæi) predmet, a koji je generiran kao (novi) prijedlog za ovrhu na temelju vjerodostojne isprave 133994-2023, te dodjeljen Javnoj bilježnici Amiri Predovan u Krku.
+Molim Vas za informacije i pomoæ:
+Na koji naèin se u sustavu e-ovrhe može povuæi prijedlog za ovrhu, koji smo greškom uputili u sustav?
+      Odgovor:
+Podnesak u kojem navodite da odustajete od ovrhe putem e-Komunikacije pošaljite na broj spisa Ovrv na sudu. 
+5. Kako se mogu prijaviti na sustav e-Ovrhe da predam prijedlog u ime tvrtke?
+   Odgovor: 
+   Ovlaštena osoba za zastupanje pravne osobe mora vam dati ovlaštenje za rad u sustavu e-ovrhe kroz sustav e-Ovlaštenja https://e-ovlastenja.gov.hr/regular/contact.
+6. U predmetu u kojem je naša stranka HEP ELEKTRA d.o.o. c/a MIRJANA RUPÈIÆ, OIB:
+24187617518, LIGANJ 46, Liganj, SILVIA ÐIPALO, OIB: 62163392078, CESTA LOVRANSKA DRAGA 4,  Jedinstveni identifikator prijedloga: 50899-2023, Sudski predmet: Ovrv-1839/2023, Javnobilježnièki predmet: UPP/OS-Ovrv-80/2023, javni bilježnik nam je dostavio rješenje kojim je zatražio ispravak prijedloga za ovrhu na naèin da treba dodati i trošak daljnjih dostava buduæi da su dva ovršenika.
+Obzirom da u aplikaciji e-ovrhe nemamo moguænost u navedenom predmetu dodati trošak daljnjih dostava, molimo vas uputu za postupanje.
+      Odgovor:
+ako Vam je potreban trošak daljnjih dostava, da  bi to mogli napraviti potrebno je na kartici Troškovi postupka oznaèiti da se ne traže troškovi postupka.
+
+Nakon toga ponovno oznaèite da se traže
+
+
+Tu Vam je omoguæeno da unesete i trošak daljnjih dostava kao i sve troškove iznova.
+

@@ -1,0 +1,2338 @@
+ 
+
+REPUBLIKA HRVATSKA 
+
+MINISTARSTVO PRAVOSUĐA I UPRAVE 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+e-Ovrhe 
+
+ 
+
+Priručnik za korištenje sustava e-Ovrhe za ovrhovoditelje 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Verzija 1.9 
+
+ 
+
+veljača, 2023. 
+
+
+Sadržaj 
+
+ 
+
+ 
+1. O usluzi e-Ovrhe .................................................................................................................................... 4 
+2. Prijava na uslugu e-Ovrhe...................................................................................................................... 5 
+2.1. Promjena subjekta .............................................................................................................................. 6 
+3. Kreiranje novog prijedloga za ovrhu na temelju vjerodostojne isprave ............................................... 8 
+3.1 Unos podataka o ovrhovoditelju ......................................................................................................... 9 
+3.1.1 Generiranje potvrde o pravu zastupanja na temelju podataka iz e-Ovlaštenja ............................. 10 
+3.2. Unos podataka o ovršeniku .............................................................................................................. 12 
+3.3. Unos podataka o vjerodostojnoj ispravi i tražbini ............................................................................ 13 
+3.3.1 Unos podataka o vjerodostojnoj ispravi ......................................................................................... 13 
+3.3.2. Unos podataka o tražbini .............................................................................................................. 14 
+3.4. Unos podataka o troškovima postupka ............................................................................................ 16 
+3.5. Unos podataka o predmetu i sredstvima ovrhe ............................................................................... 20 
+3.6. Unos dodatnih podataka prijedloga ................................................................................................. 20 
+3.7. Predaja prijedloga na sud ................................................................................................................. 21 
+4. Pregled ranije kreiranih i poslanih prijedloga za ovrhu na temelju vjerodostojne isprave ................. 25 
+4.1 Pregled ranije kreiranih prijedloga .............................................................................................. 25 
+4.2 Pregled prijedloga poslanih na sud ............................................................................................. 27 
+5. Dopuna/ispravak ovršnog prijedloga .................................................................................................. 30 
+6. Komunikacija sa sudom/javnim bilježnikom nakon predaje zahtjeva ................................................ 35 
+7. API pristup ........................................................................................................................................... 37 
+8. Zahtjev za naplatu pravomoćnog i ovršnog rješenja o ovrsi na temelju vjerodostojne isprave u 
+elektroničkom obliku – kreiranje novog zahtjeva ....................................................................................... 39 
+8.1 Popunjavanje podataka u zahtjevu ....................................................................................................... 43 
+8.2 Pregled ranije kreiranih i poslanih zahtjeva za naplatu ......................................................................... 56 
+8.2.1 Pregled ranije kreiranih zahtjeva .................................................................................................... 56 
+8.2.2 Pregled zahtjeva poslanih u FINA-u ................................................................................................ 56 
+9. Problemi na koje možete naići i kako ih riješiti ................................................................................... 58 
+10. Primjeri unosa vjerodostojne isprave i tražbine.............................................................................. 60 
+11. Primjeri unosa podataka u obrazac – najčešća pitanja ................................................................... 65 
+11.1 Unos suvlasnika stambene zgrade .............................................................................................. 65 
+12. Primjeri kreiranja zahtjeva za naplatu ............................................................................................. 68 
+13. Promjene u aplikaciji vezane za uvođenje EUR-a ............................................................................ 72 
+13.1 Unos ovršnog prijedloga kada je vjerodostojna isprava u kunama ............................................. 72 
+13.2 Unos dopune/ispravka ovršnog prijedloga kreiranjem iz postojećeg kada je raniji ovršni 
+prijedlog bio u kunama ............................................................................................................................ 73 
+13.3 Unos zahtjeva za prisilnu naplatu u EUR kada je ovršni prijedlog i rješenje o ovrsi izdano u 
+kunama .................................................................................................................................................... 74 
+
+1. O usluzi e-Ovrhe 
+
+ 
+
+ 
+
+Da bi ovrhovoditelj mogao koristiti usluge e-Ovrhe mora imati: 
+
+• elektroničku vjerodajnicu značajne ili visoke razine sigurnosti (za prijavu u sustav e-Građani), 
+• odgovarajući potpisni certifikat 
+
+
+ 
+
+Usluga e-Ovrhe dostupna je na web adresi https://e-ovrhe.pravosudje.hr/ 
+
+ 
+
+Za probleme u korištenju aplikativnog sustava e-Ovrhe, možete se obratiti na adresu elektroničke pošte: 
+e-ovrhe@mpu.hr. 
+
+ 
+
+
+2. Prijava na uslugu e-Ovrhe 
+
+ 
+
+Tehnički preduvjeti za prijavu na aplikativni sustav e-Ovrhe: Elektronička vjerodajnica značajne ili visoke 
+razine sigurnosti. 
+
+ 
+
+Vjerodajnice predstavljaju sredstva za elektroničku identifikaciju i autentifikaciju korisnika i koriste se 
+prilikom prijave na elektroničke usluge unutar sustava e-Građani. Lista prihvaćenih vjerodajnica dostupna 
+je na poveznici https://gov.hr/e-gradjani/lista-prihvacenih-vjerodajnica/1667. 
+
+ 
+
+Usluzi pristupite direktnim klikom na poveznicu https://e-ovrhe.pravosudje.hr/ ili u Internet pregledniku 
+kojeg koristite na računalu (Chrome, Firefox, Safari, i dr.) unesite navedenu web adresu. 
+
+Napominjemo kako aplikacija neće raditi u pregledniku Internet Explorer. 
+
+ 
+
+Kliknite na akciju 'Prijava', na gornjoj crvenoj traci s desne strane ekrana. 
+
+ 
+
+ 
+
+ 
+
+Bit ćete preusmjereni na stranicu Nacionalnog identifikacijskog i autentifikacijskog sustava (NIAS sustava), 
+gdje je potrebno identificirati se autentificirati pomoću vjerodajnice. 
+
+ 
+
+
+ 
+
+ 
+
+Odaberite vjerodajnicu koju posjedujete i prijavite se u NIAS sustav. 
+
+ 
+
+Ako je prijava uspješna, bit ćete ponovno preusmjereni na aplikaciju e-Ovrhe te će se na desnoj strani 
+ekrana pojaviti Vaše ime i prezime. 
+
+ 
+
+U slučaju da se ne možete uspješno prijaviti, rješenje problema potražite u poglavlju 7. 
+
+ 
+
+2.1. Promjena subjekta 
+
+ 
+
+Ako imate pravo zastupanja i drugih subjekata, npr. pravne osobe, klikom na strelicu gore desno, možete 
+odabrati rad u ime tog drugog subjekta ili možete dalje nastaviti pod svojim imenom. 
+
+ 
+
+
+ 
+
+ 
+
+Više informacija o ostalim alatima dostupnim na navigacijskoj traci možete pronaći na uputama sustava e-
+Građani: https://gov.hr/hr/pomoc/22. 
+
+ 
+
+ 
+
+ 
+
+
+3. Kreiranje novog prijedloga za ovrhu na temelju vjerodostojne isprave 
+
+ 
+
+Nakon prijave putem NIAS sustava i odabira u čije ime želite koristiti aplikaciju, odabirete želite li početi 
+sastavljati novi prijedlog ili pregledati prijedloge koje ste ranije kreirali, odnosno koje ste poslali na sud. 
+
+ 
+
+Proces slanja prijedloga za ovrhu sastoji se od sljedećih koraka: 
+
+1. Unos podataka u sustav 
+
+2. Generiranje PDF dokumenta prijedloga na temelju unesenih podataka 
+
+3. Potpisivanje PDF dokumenta kvalificiranim elektroničkim potpisom 
+
+4. Slanje prijedloga na sud 
+
+ 
+
+Za početak unosa novog prijedloga potrebno je na početnoj stranici odabrati opciju 'Novi prijedlog'. 
+
+ 
+
+ 
+
+ 
+
+Odabirom prozora 'Novi prijedlog' otvara se prvi prozor za unos podataka o novom prijedlogu. 
+
+ 
+
+ 
+
+ 
+
+U gornjem dijelu prozora (plavo uokvireno) vidi se koje je podatke potrebno unijeti: 
+
+• podaci o ovrhovoditeljima 
+
+• podaci o ovršenicima 
+
+• podaci o vjerodostojnim ispravama i tražbinama 
+
+• podaci o troškovima postupka 
+
+• podaci o predmetima i sredstvima ovrhe 
+
+• dodatni podaci prijedloga. 
+
+
+Nakon što se jednom spremi minimum podataka u određenom dijelu prijedloga, moguće se vratiti na taj 
+dio i dopuniti odnosno ispraviti sve što je potrebno prije slanja prijedloga na sud. Nakon što je generiran 
+PDF prijedloga na temelju unesenih podataka, više nije moguće mijenjati podatke iz prijedloga. Ako 
+korisnik želi izmijeniti određene podatke mora prvo obrisati generirani PDF tog prijedloga i nakon toga će 
+mu biti omogućeno uređivanja podataka. Nakon što je prijedlog poslan na sud, više nije moguće mijenjati 
+podatke iz prijedloga. 
+
+ 
+
+Za svaki skup podataka postoje obavezni podaci. Bez tih podataka nije moguće nastaviti unos, a njihova 
+obveznost proizlazi ili iz zakona ili iz minimalnih tehničkih uvjeta za funkcioniranje aplikacije. 
+
+ 
+
+Preporučuje se da ovrhovoditelj unese sve podatke koji su mu poznati bez obzira radi li se o obveznim 
+podacima. Pri unosu je potrebno provjeriti da su svi podaci točni, s osobitim naglaskom na OIB osobe. 
+
+ 
+
+3.1 Unos podataka o ovrhovoditelju 
+
+ 
+
+Kod unosa podataka o ovrhovoditelju, najprije treba odabrati o kakvoj vrsti osobe se radi, jer se sukladno 
+tome prilagođavaju polja za unos. Moguće je odabrati fizičku osobu, pravnu osobu ili ostalo (ostalo 
+predstavlja određene oblike udruživanja koji nemaju stranačku sposobnost (nisu fizičke ili pravne osobe), 
+no koji imaju mogućnost sudjelovanja u postupku na temelju posebnog propisa ili dopuštenja suda, npr. 
+suvlasnici stambene zgrade za sredstva zajedničke pričuve). 
+
+ 
+
+Nakon odabira vrste osobe potrebno je unijeti sve podatke o ovrhovoditelju: OIB, ime i prezime, naziv 
+tvrtke ili obrta, državu, naselje, poštanski broj, ulicu i kućni broj te za ovrhovoditelje pod ostalo, račun 
+specifične namjene. 
+
+ 
+
+Kod unosa pravne osobe, nakon upisa OIB-a mogu se automatski povući ostali podaci iz javno dostupnih 
+registara, odabirom opcije . Za fizičke osobe ta opcija nije dostupna. 
+
+Nakon što se unesu svi podaci potrebno ih je spremiti koristeći opciju na dnu ekrana. 
+
+ 
+
+Ako ima više ovrhovoditelja, nakon spremanja podataka o prvom ovrhovoditelju, potrebno je odabrati 
+opciju sve dok se ne unesu svi ovrhovoditelji. 
+
+ 
+
+Na prozoru unosa podataka o ovrhovoditeljima unose se i njihovi zastupnici odnosno opunomoćenici, ako 
+ih imaju, odabirom opcije . 
+
+ 
+
+Prilikom unosa zastupnika odnosno opunomoćenika, potrebno je, osim unosa osnovnih podataka o osobi, 
+unijeti i podatak o vrsti zastupanja, kojeg sudionika zastupa te pravnu osnovu za zastupanje. Ako je 
+potrebno priložiti punomoć odnosno dokaz o zastupanju, to se može učiniti klikom na: 
+
+
+. Nakon toga se otvara mogućnost za odabir datoteke s 
+računala, odnosno, datoteka se može jednostavno povući s računala tehnikom drag&drop u odgovarajući 
+okvir koji se vidi na slici ispod. 
+
+ 
+
+Dokument punomoć/dokaz o zastupanju mora biti u PDF formatu. 
+
+ 
+
+U slučaju da prilikom spremanja podataka o punomoćniku ovrhovoditelja, nije unesena punomoć, sustav 
+će korisnika pitati je li siguran da želi nastaviti sa spremanjem: 
+
+ 
+
+ 
+
+ 
+
+3.1.1 Generiranje potvrde o pravu zastupanja na temelju podataka iz e-Ovlaštenja 
+
+ 
+
+Kad je OIB ovrhovoditelja jednak OIB-u subjekta u čije ime se djeluje (odabran preko Navigacijske trake) i 
+kad je OIB punomoćnika/zastupnika koji se unosi za tog ovrhovoditelja jednak OIB-u prijavljenog korisnika, 
+te kad su usklađene opcije punomoćnik/zakonski zastupnik, aplikacija nudi mogućnost da se generira 
+dokaz o zastupanju temeljem podataka iz e-Ovlaštenja (u tom slučaju nije potrebno prilagati dokument s 
+punomoći). 
+
+Klikom na upitnik uz naslov Generiraj dokaz o zastupanju na temelju podataka iz e-Ovlaštenja dobiva se 
+pojašnjenje značenja ove funkcionalnosti. 
+
+ 
+
+
+ 
+
+ 
+
+Potvrda koja se generira iz sustava izgleda ovako. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+3.2. Unos podataka o ovršeniku 
+
+ 
+
+Kod unosa podataka o ovršeniku, najprije treba odabrati o kakvoj vrsti osobe se radi, jer se sukladno tome 
+prilagođavaju polja za unos. Moguće je odabrati fizičku osobu, pravnu osobu ili ostalo (ostalo predstavlja 
+određene oblike udruživanja koji nemaju stranačku sposobnost (nisu fizičke ili pravne osobe), no koji imaju 
+mogućnost sudjelovanja u postupku na temelju posebnog propisa ili dopuštenja suda, npr. suvlasnici 
+stambene zgrade za sredstva zajedničke pričuve). 
+
+ 
+
+Nakon odabira vrste osobe potrebno je unijeti sve podatke o ovršeniku: OIB, ime i prezime, naziv tvrtke ili 
+obrta, državu, naselje, poštanski broj, ulicu i kućni broj te za ovršenika pod ostalo, račun specifične 
+namjene. 
+
+ 
+
+Kod unosa pravne osobe , nakon unosa OIB-a mogu se automatski povući ostali podaci iz javno dostupnih 
+registara, odabirom opcije . Za fizičke osobe ta opcija nije dostupna. 
+
+Nakon što se unesu svi podaci potrebno ih je spremiti koristeći opciju na dnu ekrana. 
+
+ 
+
+Ako ima više ovršenika, nakon spremanja podataka o prvom ovršeniku, potrebno je odabrati opciju 
+sve dok se ne unesu svi ovršenici. Ako je uneseno više ovršenika, potrebno 
+je unijeti je li odgovornost ovršenika za dug razmjerna ili solidarna, pri čemu je razmjerna odgovornost 
+unaprijed zadana vrijednost. 
+
+ 
+
+Na prozoru unosa podataka o ovršeniku unose se i njihovi zastupnici odnosno opunomoćenici, ako su 
+eventualno poznati, odabirom opcije . 
+
+ 
+
+Prilikom unosa zastupnika odnosno opunomoćenika, potrebno je, osim unosa osnovnih podataka o osobi, 
+unijeti i podatak o vrsti zastupanja, kojeg sudionika zastupa te pravnu osnovu za zastupanje. Ako je 
+potrebno priložiti punomoć odnosno dokaz o zastupanju, to se može učiniti klikom na: 
+. Nakon toga se otvara mogućnost za odabir datoteke sa 
+računala, odnosno, datoteka se može jednostavno povući s računala tehnikom drag&drop u odgovarajući 
+okvir koji se vidi na slici ispod. 
+
+ 
+
+Dokument punomoć/dokaz o zastupanju mora biti u PDF formatu. 
+
+ 
+
+
+3.3. Unos podataka o vjerodostojnoj ispravi i tražbini 
+
+ 
+
+Primjeri kako unijeti vjerodostojne isprave i tražbine u nekim najčešćim kombinacijama nalaze se na kraju 
+priručnika. 
+
+ 
+
+3.3.1 Unos podataka o vjerodostojnoj ispravi 
+
+ 
+
+Podaci o vjerodostojnoj ispravi dodaju se odabirom opcije . 
+
+ 
+
+Klikom na navedeno polje otvaraju se polja o vrsti vjerodostojne isprave, oznaci, datumu, opisu tražbine iz 
+vjerodostojne isprave te unosu sadržaja isprave. 
+
+ 
+
+Polje 'Vrsta vjerodostojne isprave' je padajući izbornik u kojem se nude vrste isprava, od kojih je potrebno 
+odabrati jednu. 
+
+ 
+
+ 
+
+ 
+
+Polje 'Oznaka' predstavlja broj ili oznaku pojedine vjerodostojne isprave (primjerice broj računa), a datum 
+vjerodostojne isprave predstavlja datum izdavanja isprave (bira se u odgovarajućem formatu iz kalendara 
+ili se unosi ručno). 
+
+ 
+
+Polje 'Opis tražbina iz vjerodostojne isprave' popunjava se slobodnim unosom i kratko se opisuje pravni 
+posao iz kojeg proizlazi tražbina, npr. račun za isporučenu električnu energiju za svibanj 2020., račun za 
+obavljene građevinske usluge itd.). 
+
+Vjerodostojnu ispravu moguće je priložiti putem opcije 'Odaberite datoteku', odnosno datoteka se može 
+jednostavno povući s računala tehnikom drag&drop u odgovarajući okvir koji se vidi na slici ispod. 
+
+ 
+
+Dokument vjerodostojna isprava mora biti u PDF formatu. 
+
+ 
+
+
+Nakon što se unesu svi podaci potrebno ih je spremiti koristeći opciju pri dnu ekrana. 
+
+ 
+
+Ako ima više vjerodostojnih isprava, nakon spremanja podataka o prvoj vjerodostojnoj ispravi, potrebno 
+je odabrati opciju sve dok se ne unesu sve vjerodostojne 
+isprave. 
+
+ 
+
+3.3.2. Unos podataka o tražbini 
+
+ 
+
+Podaci o tražbini dodaju se klikom na opciju . 
+
+ 
+
+Klikom na navedenu opciju otvaraju se polja vjerodostojna isprava i ovrhovoditelj koja su popunjena prema 
+ranije unesenim podacima, ali je podatke moguće mijenjati/birati iz padajućeg izbornika (ako ima više 
+vjerodostojnih isprava i/ili više ovrhovoditelja, odabire se ona vjerodostojna isprava iz koje tražbina 
+proizlazi odnosno ovrhovoditelj kojem tražbina pripada). 
+
+ 
+
+Osim toga, potrebno je unijeti i podatke o iznosu glavnice te odabrati valutu iz padajućeg izbornika. 
+
+ 
+
+ 
+
+ 
+
+Nakon unosa glavnice moguće je iz padajućeg izbornika odabrati način obračuna kamate (zakonska zatezna 
+kamata, ugovorna zatezna kamata i opcija kamata se ne traži) i vrstu zatezne kamate. 
+
+Ovisno o odabranom obračunu i vrsti kamate, sustav prikazuje dodatna polja za unos podataka potrebnih 
+za određivanje kamate. 
+
+ 
+
+Kada se iz padajućeg izbornika odabere opcija 'Ugovorna zatezna kamata' u polje 'Ugovorna kamatna 
+stopa' upisuje se kamatna stopa koja je ugovorena između stranaka, a koja se primjenjuje za obračun 
+kamate na glavnicu. 
+
+
+ 
+
+ 
+
+ 
+
+Kad se iz padajućeg izbornika zakonske zatezne kamate odabere jedna od zadnje dvije ponuđene opcije, 
+otvara se polje 'Opis tijeka kamate' u koji se upisuje tijek kamatne stope za razdoblje prije 1. siječnja 2008. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Nakon toga unose se podaci o datumu početka tijeka kamate te se može ručno unijeti informativni iznos 
+kamate na dan podnošenja prijedloga. Može se unijeti i iznos prethodno obračunate kamate s datumom 
+do kojeg je prethodno obračunata kamata koji mora biti manji od datuma početka tijeka kamate. 
+
+ 
+
+Nakon unosa svih podataka potrebno je još unijeti i podatke za plaćanje. 
+
+ 
+
+Ako se traži isplata u domaćoj banci potrebno je unijeti sve podatke za isplatu (broj računa, poziv na broj i 
+model). 
+
+ 
+
+ 
+
+
+Ako se traži isplata u stranu banku potrebno je odabrati 'NE' u opciji 'Isplata u domaću banku' te se potom 
+unose podaci za isplatu (država, naziv banke, SWIFT banke, naziv primatelja, naziv primatelja, ulica i kućni 
+broj primatelja, broj računa). Potvrdu banke o vlasniku računa moguće je priložiti putem opcije 'Odaberite 
+datoteku', odnosno datoteka se može jednostavno povući s računala tehnikom drag&drop u odgovarajući 
+okvir koji se vidi na slici ispod. Dokument Potvrda banke o vlasniku računa mora biti u pdf formatu. 
+
+ 
+
+ 
+
+Ka se unesu svi podaci potrebno ih je spremiti koristeći opciju . 
+
+ 
+
+Ako ima više tražbina, nakon spremanja podataka o prvoj tražbini, potrebno je odabrati opciju 
+sve dok se ne unesu sve tražbine. 
+
+3.4. Unos podataka o troškovima postupka 
+
+ 
+
+Prelaskom na karticu 'Troškovi', ako se traže troškovi postupka potrebno je odabrati opciju za troškove 
+'DA' da bi se polje za unos troškova otvorilo, a ako se traži kamata na troškove postupka potrebno je 
+odabrati opciju 'DA' za kamate. 
+
+ 
+
+
+ 
+
+ 
+
+U slučaju da se odabere 'DA' u polju 'troškovi postupka' 
+
+ 
+
+ 
+
+otvaraju se polja za unos podataka o troškovima i to primatelj troškova (padajući izbornik iz kojeg se biraju 
+uneseni ovrhovoditelj/i, odnosno njihovi opunomoćenici na čiji račun je potrebno platiti troškove). 
+
+ 
+
+U polju o troškovima vidljiv je ukupan iznos glavnice, koji je osnova za izračun troška. 
+
+ 
+
+Prikazuje se polje 'Odvjetnički i ostali trošak' u koji se mogu unijeti troškovi odvjetnika i ostali troškovi koje 
+ovrhovoditelj potražuje odabirom opcije Dodaj trošak. 
+
+ 
+
+ 
+
+ 
+
+Ako se traži trošak sastava prijedloga za ovrhu kod opcije 'Predefinirani trošak' odabire se sastavljanje 
+prijedloga te sustav prikazuje trošak sastava prijedloga za ovrhu na koji se obračunava PDV. 
+
+
+ 
+
+ 
+
+Sustav izračunava trošak, no korisnik može izmijeniti iznos troška za sastav prijedloga. Tada će ga sustav 
+dodatno pitati želi li spremiti takav izračun. 
+
+ 
+
+ 
+
+ 
+
+Nakon spremanja odvjetničkog troška čiji je opis "Sastavljanje prijedloga", pored njega se prikazuje ikonicu 
+s upitnikom koja otvara sljedeće objašnjenje: 
+
+ 
+
+ 
+
+Ako se traži ostali trošak (npr. pribava potvrde, trošak pristojbe i sl.) u polje 'Opis' upisuje se nastali trošak, 
+upisuje se jedinična cijena i količina, a korisnik odabire obračunava li se PDV na navedeni trošak odabirući 
+DA ili NE u polju 'PDV se obračunava'. Polje Predefinirani trošak se u tom slučaju ne popunjava. 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+Nakon što se unesu svi podaci potrebno ih je spremiti koristeći opciju . 
+
+ 
+
+U nastavku ekrana prikazan je trošak javnog bilježnika gdje korisnik može mijenjati samo podatke o trošku 
+daljnjih dostava koji podrazumijeva trošak koji ovrhovoditelju nastaje u situaciji u kojoj se dostava obavlja 
+za više od jednog ovršenika (količina za trošak daljnjih dostava ne smije biti veća od broja ovršenika 
+umanjenog za 1). 
+
+ 
+
+ 
+
+ 
+
+U daljnjem dijelu obrasca unose se podaci potrebni za isplatu troškova postupka (je li račun u domaćoj 
+banci ili nije te podatak o broju računa, modelu i pozivu na broj). 
+
+ 
+
+ 
+
+Nakon što se unesu svi podaci potrebno ih je spremiti koristeći opciju . 
+
+ 
+
+ 
+
+
+3.5. Unos podataka o predmetu i sredstvima ovrhe 
+
+ 
+
+Predmet i sredstvo ovrhe dodaje se koristeći opciju . 
+
+ 
+
+Predmet ovrhe se bira iz šifrarnika iz padajućeg izbornika. 
+
+ 
+
+ 
+
+ 
+
+Sredstvo ovrhe se kao i predmet ovrhe, bira iz šifrarnika iz padajućeg izbornika. 
+
+ 
+
+ 
+
+Nakon što se unesu svi podaci potrebno ih je spremiti koristeći opciju . 
+
+ 
+
+3.6. Unos dodatnih podataka prijedloga 
+
+ 
+
+Ovom funkcionalnosti je predviđeno da ovrhovoditelj može unijeti druge propisane podatke za provedbu 
+ovrhe u obliku slobodnog teksta, podatke o svojem predmetu i ustrojstvenoj jedinici u okviru koje vodi 
+ovrhu radi lakšeg administriranja i rukovanja predmetom te kontakt podatke ovrhovoditelja. Također se 
+može učitati i dokument kao prilog ovršnom prijedlogu. 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+Nakon što se unesu svi željeni dodatni podaci potrebno ih je spremiti koristeći opciju . 
+
+ 
+
+3.7. Predaja prijedloga na sud 
+
+ 
+
+Nakon što se unesu svi podaci prijedlog se šalje na sud na način da se prvo generira PDF 
+. 
+
+ 
+
+Nakon što je PDF generiran otvaraju se sljedeće opcije: 
+
+ 
+
+ 
+
+ 
+
+Navedene opcije omogućavaju da se: 
+
+1. obriše PDF prijedloga, čime se ne brišu podaci o prijedlogu, nego se samo omogućava da se podaci 
+naknadno izmijene (ako je generiran PDF, sustav ne omogućava naknadnu izmjenu podataka) 
+
+2. preuzme PDF i pregleda 
+
+3. PDF koji je preuzet sa stranice i elektronički potpisan lokalno na računalu, učita u sustav 
+
+4. popunjeni PDF obrazac elektronički potpiše kroz sustav 
+
+ 
+
+ 
+
+ 
+
+1.) Najjednostavnije je PDF prijedloga elektronički potpisati kroz sustav korištenjem opcije "Potpiši PDF 
+prijedloga". 
+
+
+ 
+
+ 
+
+Nakon što potvrdite da želite kroz sustav elektronički potpisati dokument potrebno je odabrati s padajućeg 
+izbornika jedan od certifikata (trenutno je kroz aplikaciju moguće potpisivanje osobnom iskaznicom ili 
+Certilia certifikatima, dok se FINA-inim certifikatima potpisuje lokalno na računalu). 
+
+ 
+
+Ovisno o odabiru načina elektroničkog potpisivanja sustav će korisnika usmjeriti ili na izravno potpisivanje 
+ili, ako se ne radi o potpisivanju putem osobne iskaznice, na prijavu certifikata. 
+
+ 
+
+Ako se odabere udaljeni certifikat potrebno je u gornjem desnom kutu odabrati prijava, kako to i sam 
+aplikativni sustav navodi. 
+
+
+ 
+
+ 
+
+Nakon toga potrebno je kliknuti na opciju 'Nastavi'. 
+
+ 
+
+ 
+
+ 
+
+Otvorit će se podaci o certifikatu uz opciju odabira certifikata za potpis. 
+
+ 
+
+2.) Osim izravnog elektroničkog potpisivanja putem aplikacije omogućeno je da se PDF preuzme lokalno 
+na računalo 
+
+, gdje se elektornički potpisuje posredstvom nekog od programa za potpisivanje 
+PDF-a. 
+
+ 
+
+Napomena: 
+
+Potpisno rješenje koje koristite ne smije mijenjati PDF dokumenta prijedloga (npr. stavljati reklame u 
+dokument i sl.). 
+
+ 
+
+
+Nakon toga se isti dokument učitava u aplikaciju preko opcije 
+
+
+ 
+
+Nakon što je dokument uspješno potpisan i učitan u aplikaciju potrebno je odabrati opciju 
+. 
+
+ 
+
+ 
+
+ 
+
+Kad prijedlog bude poslan i zaprimljen na sudu, podaci o predmetu će biti vidljivi u aplikaciji, uz mogućnost 
+preuzimanja potvrde primitka. 
+
+ 
+
+ 
+
+
+4. Pregled ranije kreiranih i poslanih prijedloga za ovrhu na temelju vjerodostojne 
+isprave 
+
+ 
+
+ 
+
+ 
+
+Otvorit će se 
+
+
+ 
+
+4.1 Pregled ranije kreiranih prijedloga 
+
+ 
+
+Odabirom plavog polja 'Nacrti' otvara se popis svih nacrta prijedloga (obrasci koje se počelo popunjavati, 
+ali nisu poslani na sud). 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Za svaki nacrt moguće je izraditi novi prijedlog iz postojećeg dokumenta, preuzeti PDF, obrisati ga ili 
+pregledati detalje i urediti. 
+
+ 
+
+Za nacrte za koje je izgeneriran PDF, a nisu poslani na sud, prilikom odabira opcije 'Detalji', dobiva se 
+obavijest da nacrt nije moguće urediti, s obzirom da je izgeneriran PDF. Dakle, da bi se izmijenili uneseni 
+podaci, potrebno je obrisati PDF, urediti podatke i ponovno generirati PDF. 
+
+
+ 
+
+PDF se potpisuje i šalje na sud na način opisan u poglavlju 3.7. 
+
+ 
+
+ 
+
+Na modulu Nacrti postoji opcija pretraživanja (filtriranja) podataka. Ova forma je "skrivena" kako ne bi 
+zauzimala nepotreban prostor na ekranu ako se ne koristi. Ista se otvara klikom na strelicu prema dolje. 
+
+ 
+
+ 
+
+ 
+
+Kada se forma otvori omogućava pretragu po različitim kriterijima (ime i prezime/naziv, OIB ovršenika ili 
+ovrhovoditelja, te jedinstveni identifikator pod kojim je ovrhovoditelj upisao nacrt prijedloga). 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+4.2 Pregled prijedloga poslanih na sud 
+
+ 
+
+Odabirom plavog polja 'Poslani na sud' otvara se popis svih prijedloga poslanih na sud. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Nakon što se na sudu izgenerira poslovni broj predmeta i predmet bude dodijeljen javnom bilježniku, 
+navedeni podaci bit će vidljivi korisniku. 
+
+ 
+
+Korisnik može za svaki poslani prijedlog preuzeti PDF, preuzeti potvrdu o slanju prijedloga sudu i pregledati 
+detalje prijedloga. Osim toga svaki poslani prijedlog se može koristiti kao predložak za izradu novog 
+prijedloga preko gumba 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+Potvrda slanja izgleda ovako: 
+
+ 
+
+ 
+
+ 
+
+Na modulu Poslani na sud postoji opcija pretraživanja (filtriranja) podataka. Ova forma je "skrivena" kako 
+ne bi zauzimala nepotreban prostor na ekranu ako se ne koristi. Ista se otvara klikom na strelicu prema 
+dolje. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+Kada se forma otvori omogućava pretragu po različitim kriterijima (ime i prezime/naziv, OIB ovršenika ili 
+ovrhovoditelja, jedinstveni identifikator pod kojim je ovrhovoditelj upisao prijedlog, sud na koji je prijedlog 
+poslan, period slanja). 
+
+ 
+
+ 
+
+ 
+
+
+5. Dopuna/ispravak ovršnog prijedloga 
+
+ 
+
+Na kartici Pregled mojih prijedloga->Poslani na sud potrebno je pronaći prijedlog koji želite 
+ispraviti/dopuniti te korištenjem funkcionalnosti Novi iz postojećeg kopirati postojeći prijedlog. 
+
+ 
+
+Osim kopiranja postojećeg prijedloga koji je svakako najjednostavniji način, moguće je izraditi ispravljeni 
+prijedlog bez korištenja funkcionalnosti Novi iz postojećeg, kreiranjem potpuno novog prijedloga. 
+
+ 
+
+Napomena: 
+
+Kod slanja dopune/ispravka potrebno je poslati cjelovit ovršni prijedlog sa svim podacima, a ne samo 
+dio prijedloga na koji se odnosi ispravak ili dopuna. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Otvara se kartica Ovrhovoditelja u novom prijedlogu. Nakon toga možete bilo koju karticu urediti odnosno 
+ispraviti podatke. 
+
+ 
+
+ 
+
+ 
+
+Kada ste ispravili ili dopunili podatke generirate novi PDF. 
+
+ 
+
+ 
+
+
+ 
+
+Nakon što je PDF ovršnog prijedloga izrađen potrebno ga je potpisati (3.7. Predaja prijedloga na sud). 
+
+ 
+
+Nakon što je prijedlog potpisan potrebno ga je poslati na već postojeći predmet. Ovo je moguće odraditi 
+preko padajućeg izbornika odabirom opcije Pošalji prijedlog na sud. 
+
+ 
+
+Odabirom trokuta prema dolje otvara se opcija Pošalji prijedlog na sud kao dopunu za postojeći 
+prijedlog. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Odabirom ove funkcionalnosti otvara se prozor za slanje dopune/ispravka. 
+
+ 
+
+ 
+
+ 
+
+Da bi mogli poslati dopunu potrebno je upisati jedinstveni identifikator inicijalnog prijedloga. Isti možete 
+pronaći u gornjem lijevom kutu prijedloga 
+
+ 
+
+ 
+
+ 
+
+ili na kartici Poslani na sud. 
+
+
+ 
+
+ 
+
+ 
+
+Nakon unosa jedinstvenog identifikatora inicijalnog prijedloga, odabirom opcije Pošalji prijedlog na sud 
+kao dopunu za postojeći prijedlog, isti se šalje na već postojeći Ovrv spis. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+Kad je dopuna poslana na predmet vidljivi su sud, broj predmeta, javni bilježnik te javnobilježnička oznaka. 
+
+
+ 
+
+ 
+
+Na kartici Poslani na sud uz oznaku jedinstvenog identifikatora vidi se naznaka Dopuna. 
+
+ 
+
+ 
+
+
+6. Komunikacija sa sudom/javnim bilježnikom nakon predaje zahtjeva 
+
+ 
+
+Komunikacija ovrhovoditelja sa sudom ili javnim bilježnikom u daljnjem tijeku postupka odvija se putem 
+sustava e-Komunikacija. Komunikacija s ovršenikom će se također odvijati putem sustava e-Komunikacije 
+ako je ovršenik uključen u e-Komunikaciju. 
+
+ 
+
+Detalje o uvjetima i načinu uključivanja u e-Komunikaciju možete pronaći na poveznici 
+https://usluge.pravosudje.hr/komunikacija-sa-sudom/. 
+
+ 
+
+ 
+
+ 
+
+U sustavu e-Ovrhe, korisnicima je opcijom Pregled mojih prijedloga->Poslani na sud omogućen brzi pristup 
+stranici za uvid u podatke predmeta kroz e-Komunikaciju nakon što je na temelju prijedloga osnovan Ovrv 
+predmet. 
+
+ 
+
+ 
+
+ 
+
+Nakon slanja na sud, nakon što predmet dobije poslovni broj suda, korisnik može izvršiti uvid u Ovrv 
+predmet putem e-Komunikacije. 
+
+
+ 
+
+ 
+
+
+7. API pristup 
+
+ 
+
+Radi pojednostavljenja poslovnih procesa velikih ovrhovoditelja, odnosno pravnih osoba koje redovito 
+podnose veliki broj prijedloga za ovrhu na temelju vjerodostojne isprave, omogućen je prijenos podataka 
+iz njihovih informacijskih sustava u aplikativni sustav e-Ovrhe putem tzv. API-a za velike ovrhovoditelje. 
+
+Detaljne upute za korištenje API-a možete preuzeti na početnoj stranici e-Ovrhe. 
+
+ 
+
+ 
+
+ 
+
+Da bi se pravne osobe mogle povezati servisom sa sustavom e-Ovrha, potrebno je koristiti jedinstveni broj 
+generiran putem tokena. 
+
+ 
+
+ 
+
+ 
+
+Korisnik odabire vrijeme trajanja tokena (najdulje 180 dana). Istovremeno je moguće imati više aktivnih 
+tokena. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+Nakon kreiranja tokena korisnik ga sprema u svoj sustav i koristi sukladno detaljnim uputama na početnoj 
+stranici. 
+
+ 
+
+ 
+
+ 
+
+
+8. Zahtjev za naplatu pravomoćnog i ovršnog rješenja o ovrsi na temelju 
+vjerodostojne isprave u elektroničkom obliku – kreiranje novog zahtjeva 
+
+ 
+
+Zahtjev se kreira na dva načina: 
+
+1. preko modula Pregled prijedloga, u Pregledu mojih prijedloga->Poslani na sud. 
+
+
+ 
+
+Na modulu Pregled mojih prijedloga omogućen je filter pomoću kojega je moguće pregledati prijedloge za 
+koje su izdana pravomoćna i ovršna rješenja o ovrsi, a nije kreiran zahtjev za naplatu. 
+
+ 
+
+ 
+
+Zahtjev se kreira otvaranjem opcije Detalji za pojedini prijedlog. 
+
+ 
+
+ 
+
+U konkretnom prijedlogu zahtjev za naplatu kreira se preko opcije Kreiraj zahtjev na temelju prijedloga. 
+
+
+ 
+
+ 
+
+ 
+
+2. preko modula Novi zahtjev na početnoj stranici. 
+
+
+Otvaranjem ovog modula potrebno je unijeti jedinstveni identifikator prijedloga za ovrhu na temelju 
+kojega je doneseno pravomoćno i ovršno rješenje, a ako prijedlog ne pripada vašem korisničkom računu 
+(npr. prijedlog je netko drugi predao na sud preko sustava e-Ovrhe) tada je potrebno unijeti i kontrolni 
+broj prijedloga. 
+
+ 
+
+ 
+
+Jedinstveni identifikator prijedloga vidljiv je u aplikaciji u opciji Pregled mojih prijedloga->Poslani na sud u 
+stupcu Jedinstveni identifikator. 
+
+
+ 
+
+ 
+
+ 
+
+Jedinstveni identifikator prijedloga je vidljiv i na samom prijedlogu u gornjem lijevom kutu, kao i na svakoj 
+slijedećoj stranici PDF-a prijedloga u gornjem desnom kutu. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+Kontrolni broj prijedloga možete pronaći na zadnjoj stranici ovršnog prijedloga. 
+
+ 
+
+ 
+
+Nakon što se unese podatak o jedinstvenom identifikatoru prijedloga odabirom opcije Dohvati podatke 
+prijedloga aplikacija dohvaća podatke. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+8.1 Popunjavanje podataka u zahtjevu 
+
+ 
+
+Po dohvatu podataka iz prijedloga za ovrhu te podataka o pravomoćnom i ovršnom rješenju o ovrsi, 
+podatke je moguće urediti. 
+
+U polju Rješenje prikazuju se podaci o rješenju o ovrsi, a ako je uz prijedlog vezano više rješenja o ovrsi 
+podatak možete promijeniti odabirom iz padajućeg izbornika. 
+
+U slučaju da prijedlog za ovrhu odnosno rješenje o ovrsi sadrži više ovrhovoditelja/ovršenika korisnik treba 
+iz padajućeg izbornika odabrati za kojeg ovrhovoditelja i ovršenika kreira zahtjev za naplatu. 
+
+U slučaju da ovrhovoditelj u prijedlogu ima punomoćnika prikazat će se njegovi podaci iz prijedloga koje je 
+moguće urediti. Ako želite dodati punomoćnika ovrhovoditelja to je moguće učiniti nakon kreiranja 
+zahtjeva. 
+
+ 
+
+Ako su svi podaci točni (ili ste ih uredili) odabirom na gumb Kreiraj novi zahtjev pokreće se postupak 
+kreiranja zahtjeva za naplatu. 
+
+Aplikacija će u skočnom prozoru prikazati obavijest korisniku kojom mu pojašnjava da je inicijalno Zahtjev 
+za naplatu izrađen u cijelosti prema podacima iz rješenja. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+Ako ovrhovoditelj ne želi naplatu u cijelosti već zahtjev podnosi za dio tražbine ili prema podacima 
+različitim od onih u rješenju (primjerice: broj računa ovrhovoditelja, poziv na broj i sl.), potrebne izmjene 
+vrše se na ekranu Dugovanja. 
+
+Ako se bilo koji od podataka potrebnih za naplatu iz prijedloga izmijeni, rješenje će se provesti prema 
+specifikaciji tražbine. 
+
+Svaki od podataka u karticama Ovrhovoditelj, Ovršenik, Dugovanja, Predujam i Prilozi možete urediti ili 
+obrisati, a na kartici Dugovanja možete označiti koja tražbina/trošak ulazi u zahtjev. 
+
+ 
+
+U kartici Dugovanja kao zadana vrijednost prikazuje se obavijest korisniku zelene boje, koja ga upozorava 
+da zahtjev podnosi u cijelosti. 
+
+Ako neki podatak na kartici Dugovanja uredite ili označite da ne ulazi u zahtjev, u aplikaciji će biti vidljivo 
+da je došlo do promjene te da se zahtjev više ne formira prema rješenju o ovrsi, nego prema 
+specifikaciji. Tražbine za koje korisnik označi da ne ulaze u zahtjev prikazane su svjetlijom bojom kako bi se 
+razlikovale od tražbina koje ulaze u zahtjev. 
+
+
+Ako je korisnik izmijenio bilo koji podatak u kartici Dugovanja (npr. obriše ili umanji dug, izmijeni broj 
+računa ovrhovoditelja ili poziv na broj i sl.), prikazuje mu se obavijest narančaste boje, koja ga upozorava 
+da zahtjev podnosi prema podacima iz specifikacije tražbine. 
+
+ 
+
+ 
+
+U kartici Predujam postavljeno je kao zadana vrijednost da je ovrhovoditelj dužan predujmiti naknadu. 
+Navedeno je moguće isključiti odabirom gumba kod oznake DA. 
+
+Podaci o predujmu dodaju se preko opcije Dodaj predujam naknade. 
+
+ 
+
+Predujam se može platiti nalogom za plaćanje ili iz prethodno deponiranih sredstava, a biti će omogućeno 
+i plaćanje karticom putem stranice https://predujam.fina.hr. 
+
+U aplikaciju je potrebno unijeti podatke o plaćenom predujmu. Ako je predujam plaćen iz prethodno 
+deponiranih sredstava ili karticom putem stranice https://predujam.fina.hr u aplikaciji je potrebno unijeti 
+podatak o pozivu na broj. Ako je predujam plaćen na neki drugi način (općom uplatnicom, internet 
+bankarstvom i sl.) potrebno je unijeti poziv na broj, iznos i datum uplate te priložiti dokaz o plaćanju putem 
+opcije Odaberite datoteku. 
+
+ 
+
+ 
+
+
+Odabirom opcije Podaci za plaćanje predujma 
+
+korisnik se preusmjerava na stranice FINA-e, radi izračuna iznosa predujma i generiranja podataka za 
+plaćanje. Ako je tražbina u HRK iznos predujma naknade računa se automatski prema podacima iz zahtjeva, 
+a ako je neka od tražbina izražena u valuti različitoj od HRK, onda korisnik na stranici FINA-e sam unosi 
+iznos tražbine u kunskoj protuvrijednosti za potrebe izračuna predujma. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+U podacima za isplatu iznosa predujmljene naknade unose se podaci o računu na koji se isplaćuje 
+predujmljeni iznos naknade za provedbu ovrhe, a koji mora pripadati ovrhovoditelju. 
+
+ 
+
+ 
+
+Na kartici Prilozi omogućeno je dodavanje priloga, odnosno učitavanje dokumenata. 
+
+ 
+
+ 
+
+Odabirom opcije Dodaj prilog otvaraju se detalji vezani za priloge. 
+
+ 
+
+Kod dodavanja priloga potrebno je odabrati jednu od opcija iz padajućeg izbornika. 
+
+
+ 
+
+Ovisno o odabranoj vrsti priloga potrebno je ili učitati datoteku (za isprave koje ne moraju FINA-i biti 
+dostavljene u izvorniku ili su izdane u elektroničkom obliku) ili popuniti podatke. Ako se radi o vrstama 
+priloga Punomoć, Cesija, Plan podjele društva ili Potvrda o računu u stranoj banci, isprava koja se prilaže 
+mora biti potpisana elektroničkim potpisom, a isprave vrste Rješenje o nasljeđivanju i Dokaz o promjeni 
+imena i prezimena dodatno moraju sadržavati i kod za provjeru vjerodostojnosti. 
+
+Isprave koje sadrže kod za provjeru vjerodostojnosti mogu se dostaviti i ako ne sadrže elektronički potpis 
+kao vrsta isprave Ostalo. 
+
+Ako je isprava pohranjena u FINA-i, potrebno je upisati oznaku pod kojom je isprava (npr. punomoć) 
+pohranjena u FINA-i. 
+
+Ako se isprava od ranije nalazi u FINA-i, a ne radi se o pohranjenoj ispravi, potrebno je u polju Napomena 
+o ispravi upisati podatak iz kojega FINA može utvrditi gdje se isprava nalazi (npr. naznaka da je isprava 
+dostavljena za određenog ovršenika određenog datuma). Ako je odabrana vrsta priloga Ostalo u polje Opis 
+potrebno je upisati podatke o ispravi koja se prilaže. 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+Nakon uređivanja i dodavanja svih potrebnih podataka o Ovrhovoditelju, Ovršenicima, Dugovanju, 
+Predujmu i Prilozima potrebno je u kartici Predaja zahtjeva generirati PDF zahtjeva, odabirom opcije 
+Generiraj PDF. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Nakon uspješnog generiranja PDF-a zahtjeva aplikacija obavještava o istome te se otvara nekoliko opcija 
+(slično kao kod generiranja prijedloga za ovrhu). 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Moguće je preuzeti PDF zahtjeva odabirom opcije 
+
+ 
+
+Nakon preuzimanja PDF-a zahtjeva moguće je preko opcije 
+
+ 
+
+izvršiti provjeru PDF-a zahtjeva radi automatizirane provjere postoje li u zahtjevu kakvi nedostaci ili druge 
+zapreke za provedbu ovrhe u FINA-i. 
+
+ 
+
+Ako je sve uredno korisnik će dobiti povratnu obavijest o uspješnoj provjeri zahtjeva, 
+
+ 
+
+
+a ako se prilikom provjere u FINA-i pronađu neki nedostaci, korisniku će biti prikazana poruka s popisom 
+grešaka. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Ako ste uočili neku grešku u sadržaju PDF-a zahtjeva ili vam je Provjerom zahtjeva u FINA-i vraćena 
+obavijest s popisom grešaka, putem crvenog gumba: 
+
+ 
+
+ 
+
+obrišite PDF. 
+
+ 
+
+Time se ne brišu podaci uneseni u zahtjev nego se omogućava uređivanje podataka zahtjeva i ponovno 
+generiranje novog PDF-a zahtjeva. Podaci za koje je javljena greška mogu se ispraviti u odgovarajućoj 
+kartici zahtjeva (Ovrhovoditelj, Ovršenici, Dugovanja i dr.). 
+
+ 
+
+Po izvršenom ispravku podataka zahtjeva potrebno je ponovno generirati novi PDF zahtjeva. 
+
+ 
+
+Nakon što ste i uvidom u PDF zahtjeva provjerili PDF zahtjeva i utvrdili da je isti uredan potrebno ga je 
+elektronički potpisati. 
+
+ 
+
+Najjednostavnije je PDF prijedloga elektronički potpisati kroz sustav korištenjem opcije "Potpiši PDF 
+zahtjeva". 
+
+
+ 
+
+ 
+
+Nakon što potvrdite da želite kroz sustav elektronički potpisati dokument potrebno je odabrati s padajućeg 
+izbornika jedan od certifikata (trenutno je kroz aplikaciju moguće potpisivanje osobnom iskaznicom ili 
+Certilia certifikatima, dok se FINA-inim certifikatima potpisuje lokalno na računalu). 
+
+ 
+
+ 
+
+ 
+
+Ovisno o odabiru načina elektroničkog potpisivanja sustav će korisnika usmjeriti ili na izravno potpisivanje 
+ili, ako se ne radi o potpisivanju putem osobne iskaznice, na prijavu certifikata. 
+
+ 
+
+Ako se odabere udaljeni certifikat potrebno je u gornjem desnom kutu odabrati Prijava, kako to i sam 
+aplikativni sustav navodi. 
+
+
+ 
+
+ 
+
+ 
+
+Nakon toga potrebno je kliknuti na opciju Nastavi. 
+
+ 
+
+ 
+
+ 
+
+Otvorit će se podaci o certifikatu uz opciju odabira certifikata za potpis. 
+
+ 
+
+2.) Osim izravnog elektroničkog potpisivanja putem aplikacije omogućeno je da se PDF preuzme lokalno 
+na računalo 
+
+, gdje se elektronički potpisuje posredstvom nekog od programa za potpisivanje 
+PDF-a. 
+
+ 
+
+Napomena: 
+
+Potpisno rješenje koje koristite ne smije mijenjati PDF dokumenta zahtjeva (npr. stavljati reklame u 
+dokument i sl.). 
+
+ 
+
+
+ 
+
+ 
+
+Nakon toga se isti dokument učitava u aplikaciju preko opcije: 
+
+ 
+
+ 
+
+Nakon što je dokument elektornički potpisan i učitan u aplikaciju, može se i u ovom koraku putem opcije: 
+
+ 
+
+ izvršiti automatizirana provjera postoje li u zahtjevu nedostaci ili druge zapreke za provedbu ovrhe. 
+
+ 
+
+Ako zahtjev nema nedostataka ili korisnik unatoč obavijesti o greškama želi poslati zahtjev na provedbu, 
+može ga poslati u FINA-u preko opcije: 
+
+ 
+
+Prilikom slanja aplikacija će još jednom upozoriti na uočene nedostatke, no unatoč tome će omogućiti 
+korisniku da potvrdi slanje odabirom plavog gumba Potvrdi. 
+
+ 
+
+ 
+
+Ako prilikom automatizirane provjere nisu pronađene greške zahtjev će dobiti status Prihvaćen. 
+
+ 
+
+ 
+
+
+Ako zahtjev ima nedostatke koji se mogu utvrditi automatiziranom provjerom, zahtjevu će se dodijeliti 
+status Odbijen, o čemu korisnik dobiva obavijest, a razloge odbijanja može vidjeti u opciji Razlog odbijanja. 
+
+ 
+
+Zahtjev može biti zaprimljen u FINA-i, ali je nakon zaprimanja automatiziranom provjerom odbijena 
+provedba zahtjeva te se u tom slučaju odbijenom zahtjevu dodjeljuje Vrijeme zaprimanja u FINA-i. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Ako je zahtjev odbijen radi nedostatka koji onemogućuje njegovo zaprimanje u FINA-in sustav, zahtjev 
+neće biti upisan u Očevidnik redoslijeda osnova za plaćanje niti dobiti Vrijeme zaprimanja u FINA-i. 
+
+ 
+
+ 
+
+ 
+
+U slučaju da nakon slanja zahtjeva u FINA-u nije potvrđen primitak, npr. zbog tehničkih poteškoća ili 
+nedostupnosti jednog od sustava (e-Ovrhe ili FINA-e), zahtjev će dobiti status Poslan. 
+
+ 
+
+ 
+
+ 
+
+U aplikaciji je dostupno i pojašnjenje značenja pojedinih statusa: 
+
+
+ 
+
+Za zahtjev koji je po izvršenoj automatiziranoj provjeri dobio status Prihvaćen, u sustavu FINA-e provode 
+se dodatne provjere koje nije moguće automatizirano provesti. Nakon te dodatne provjere u FINA-i zahtjev 
+će biti proveden (status Prihvaćen neće se mijenjati) ili će dobiti status Odbijen. 
+
+ 
+
+Za zahtjeve koji dobiju status Odbijen u opciji Razlozi odbijanja navodi se popis grešaka zbog kojih je zahtjev 
+odbijen. 
+
+ 
+
+Za sve zahtjeve koji su zaprimljeni u FINA-i (oni koji imaju upisano Vrijeme zaprimanja u FINA-i), bilo da su 
+dobili status Odbijen odmah po automatiziranoj provjeri ili su po automatiziranoj provjeri dobili status 
+Prihvaćen, ali su naknadnom dodatnom provjerom u FINA-i dobili status Odbijen, smatrat će se da je 
+navođenjem popisa grešaka dostupnih u opciji Razlog odbijanja podnositelj zahtjeva obaviješten o 
+nemogućnosti izvršenja osnove za plaćanje te o tome neće zaprimiti obavijest putem pošte. 
+
+ 
+
+ 
+
+ 
+
+Ovrhovoditelj /punomoćnik (ovisno o tome čija je adresa e-pošte navedena u zahtjevu za naplatu) će na 
+adresu elektroničke pošte zaprimiti obavijest o nemogućnosti izvršenja osnove za plaćanje kojom se 
+obavještava da Razloge odbijanja zahtjeva može naći u sustavu e-Ovrhe. 
+
+
+8.2 Pregled ranije kreiranih i poslanih zahtjeva za naplatu 
+
+ 
+
+Otvaranjem opcije Pregled zahtjeva moguće je vidjeti zahtjeve koji su kreirani i nisu poslani i zahtjeve koji 
+su poslani u FINA-u. 
+
+ 
+
+8.2.1 Pregled ranije kreiranih zahtjeva 
+
+ 
+
+Na Pregled zahtjeva – Nacrti vidljivi su svi kreirani zahtjevi koji nisu poslani u FINA-u. 
+
+ 
+
+ 
+
+8.2.2 Pregled zahtjeva poslanih u FINA-u 
+
+ 
+
+Na Pregled zahtjeva – Poslani u FINA-u dostupni su svi zahtjevi koji su poslani u FINA-u radi provedbe 
+ovrhe. 
+
+ 
+
+
+Za svaki zahtjev vidljiv je status zadnjeg slanja zahtjeva u FINA-u odnosno je li zahtjev prihvaćen ili je 
+odbijena provedba ovrhe te detalji zahtjeva 
+
+ 
+
+kao i podaci o slanju u FINA-u. 
+
+ 
+
+ 
+
+ 
+
+
+9. Problemi na koje možete naići i kako ih riješiti 
+
+ 
+
+Ne mogu se prijaviti na uslugu e-Ovrhe. Što trebam učiniti? 
+
+• Provjerite prijavljujete li se s ispravnim podacima. 
+• Provjerite valjanost elektroničke vjerodajnice s institucijom koja ju je izdala (FINA, AKD) 
+• Provjerite na eOvlaštenjima https://e-ovlastenja.gov.hr/ da li imate ovlaštenje zastupati pravnu 
+osobu u eOvrhama. 
+
+
+ 
+
+Prijavio sam se na uslugu e-Ovrha, ali nakon nekog vremena onemogućen mi je rad. Što se dogodilo i što 
+trebam učiniti? 
+
+• Ako je usluga e-Ovrhe 30 minuta bila u mirovanju, istekla je Vaša sesija. Nećete biti u mogućnosti 
+dalje koristiti uslugu, dok se ponovno ne prijavite na uslugu. 
+
+
+ 
+
+Pripremio sam ovršni prijedlog, ali ga nisam stigao poslati sudu isti dan. Gdje sutradan mogu pronaći taj 
+prijedlog? 
+
+• Podatke koji su ranije pripremljeni, i nisu još poslani sudu, možete pronaći na opciji 'Pregled 
+prijedloga->Nacrti'. 
+
+
+ 
+
+Gdje pronaći ažurnu korisničku uputu za e-Ovrhu? 
+
+• Ažurna korisnička uputa nalazi se na početnoj stranici aplikativnog sustava e-Ovrhe. 
+
+
+ 
+
+ 
+
+Kada potpisujem FINA-inim certifikatom dobijem grešku? 
+
+• Za potpisivanje FINA-inim certifikatom treba imati instaliran upravljački program za certifikat. 
+Informacije o tome možete pronaći na https://www.fina.hr/datoteka-za-potpisivanje-na-sustavu-
+e-gradani/e-poslovanje. 
+• Druga mogućnost je potpisati izvan eOvrha, lokalno na računalu korištenjem ove dvije opcije. 
+
+
+ 
+
+Dakle, preuzimate ispunjeni PDF obrazac, spremate ga na računalo, potpisujete i vraćate u aplikaciju preko 
+opcije Učitaj potpisani PDF prijedloga. 
+
+Naplata troškova javnih bilježnika 
+
+Hrvatska javnobilježnička komora je omogućila korisnicima aplikativnog sustava eOvrhe dodatnu uslugu 
+automatske naplate troškova javnih bilježnika. U sklopu te dodatne usluge moguće je na brz i jednostavan 
+način otvoriti e-račun te uplatiti novčana sredstva, a svaka će transakcija biti izvršena odmah. Usluga je 
+sigurna, jednostavna za korištenje te dostupna svima (pravne osobe, obrti i slobodna zanimanja npr. 
+odvjetnici) koji imaju račun otvoren na svoje ime u jednoj od poslovnih banaka u Republici Hrvatskoj. 
+Pregled detalja o uvjetima korištenja te registraciju i pristup usluzi možete obaviti ovdje. 
+
+
+Promjena ovrhovoditelja prije izdavanja pravomoćnog rješenja o ovrsi 
+
+ 
+
+U slučaju kada se nakon podnošenja ovršnog prijedloga promijeni ovrhovoditelj (npr. novi ovrhovoditelj 
+je otkupio dospjela potraživanja za koja je prvi vjerovnik - cedent pokrenuo ovršni postupak, slanjem 
+prijedloga za ovrhu putem eOvrha), koji treba poslati ispravak/dopunu ovršnog prijedloga. 
+
+1. javni bilježnik treba upisati u spisu kroz eNotar novog ovrhovoditelja sa OIB-om, te po potrebi i novog 
+punomoćnika sa OIB-om. 
+
+2. nakon toga ovrhovoditelj odnosno punomoćnik mogu kroz sustav e-Ovrhe kreirati novi ovršni prijedlog 
+(nema mogućnosti korištenja opcije Novi iz postojećeg). Kada je prijedlog kreiran šalje se na sud 
+odabirom trokuta prema dolje kroz opciju Pošalji prijedlog na sud kao dopunu za postojeći prijedlog na 
+način da se upiše jedinstveni identifikator (JID) inicijalnog prijedloga. 
+
+ 
+
+ 
+
+ 
+
+Napomena: Kada odvjetnik kao punomoćnik šalje dopunu potrebno je da isti prijavi u sustav e-Ovrhe 
+imenom i prezimenom, a ne kao odvjetnik ime i prezime. Kod prijave kao odvjetnik sustav neće dozvoliti 
+slanje dopune (na sustavu e-Ovlaštenja se odvjetnici vode po broju iz HOK-a, a sustav gleda OIB). 
+
+ 
+
+ 
+
+ 
+
+
+10. Primjeri unosa vjerodostojne isprave i tražbine 
+
+ 
+
+Primjer 1. jedna vjerodostojna isprava s jednom tražbinom i isplatom u domaću banku 
+
+ 
+
+Primjer je razrađen u poglavlju 3. 
+
+ 
+
+Primjer 2. jedna vjerodostojna isprava, no tražbine dospijevaju s različitim datumima dospijeća 
+
+Podatke o vjerodostojnoj ispravi dodaje se opcijom . 
+
+ 
+
+Klikom na navedenu opciju otvaraju se polja o vrsti vjerodostojne isprave, oznaci, datumu te sadržaju 
+isprave. 
+
+Nakon što se unesu svi podaci potrebno ih je spremiti koristeći opciju na dnu ekrana. 
+
+ 
+
+Nakon toga se unose podaci o tražbini putem opcije . 
+
+ 
+
+Klikom na navedenu opciju otvaraju se polja vjerodostojna isprava i ovrhovoditelj koja su popunjena, ali je 
+podatke moguće mijenjati/birati s padajućeg izbornika (ako ima više ovrhovoditelja i/ili više vjerodostojnih 
+isprava). 
+
+ 
+
+Tad se unosi prvo jedna tražbina s kamatom od datuma nakon dospijeća pa zatim ponovno klikom na opciju 
+''Dodaj tražbinu'' unosi se druga tražbina itd. 
+
+ 
+
+Nakon unosa svih podataka aplikativni sustav sam zbraja uneseno. 
+
+ 
+
+
+ 
+
+ 
+
+Nakon unosa svih podataka potrebno je još unijeti i podatke za plaćanje kao što je prikazano u poglavlju 
+3.3.2. 
+
+ 
+
+Primjer 3. više vjerodostojnih isprava 
+
+Podatke o vjerodostojnoj ispravi dodaje se opcijom . 
+
+ 
+
+Klikom na navedenu opciju otvaraju se polja o vrsti vjerodostojne isprave, oznaci, datumu te sadržaju 
+isprave. 
+
+Nakon što se unesu svi podaci potrebno ih je spremiti koristeći opciju na dnu ekrana. 
+
+ 
+
+Ako postoji više vjerodostojnih isprava ovaj proces ponavlja se sukladno broju vjerodostojnih isprava. 
+
+ 
+
+Za svaku vjerodostojnu ispravu potrebno je unijeti i tražbinu. Kod unosa tražbine pojavit će se mogućnost 
+izbora vjerodostojne isprave s padajućeg izbornika. 
+
+ 
+
+ 
+
+ 
+
+
+Potrebno je odabrati ispravu, unijeti iznos glavnice, valutu i ostale potrebne podatke. 
+
+ 
+
+Primjer 4. tražbina u stranoj valuti 
+
+Podatke o vjerodostojnoj ispravi dodaje se opcijom . 
+
+ 
+
+Klikom na navedenu opciju otvaraju se polja o vrsti vjerodostojne isprave, oznaci, datumu te sadržaju 
+isprave. 
+
+Nakon što se unesu svi podaci potrebno ih je spremiti koristeći opciju na dnu ekrana. 
+
+ 
+
+Tražbina se dodaje klikom na opciju . 
+
+ 
+
+Kad se tražbina unese u stranoj valuti nudi se opcija odabira isplate u kunskoj protuvrijednosti. 
+
+ 
+
+ 
+
+ 
+
+U slučaju odabira 'DA' za isplatu u kunskoj protuvrijednosti potrebno je unijeti prema kojem tečaju se vrši 
+obračun i obračunati tražbinu (polje Obračun tečaja). 
+
+ 
+
+ 
+
+ 
+
+Kad je tražbina unesena u stranoj valuti korisnik sam unosi obračun podataka u kunskoj protuvrijednosti. 
+
+ 
+
+
+ 
+
+ 
+
+Na 'Ukupni iznos' kod oznake unosi se iznos tražbine u kunama (glavnice i kamate), što korisnik 
+sam računa i unosi. Obvezno je unijeti podatke o ukupnoj glavnici i ukupnom iznosu. 
+
+Podaci se spremaju korištenjem opcije pored svake tabele. 
+
+ 
+
+ 
+
+ 
+
+Primjer 5. isplata u stranoj banci 
+
+ 
+
+Opciju kod podataka za isplatu prebacite na 'NE' (Isplata u domaću banku) 
+
+ 
+
+
+ 
+
+ 
+
+Otvara se polje s podacima o stranoj banci odnosno vlasniku računa u toj banci koje je potrebno popuniti. 
+
+ 
+
+ 
+
+ 
+
+
+11. Primjeri unosa podataka u obrazac – najčešća pitanja 
+
+ 
+
+11.1 Unos suvlasnika stambene zgrade 
+
+ 
+
+Primjer 1. Unos suvlasnika stambene zgrade kao ovrhovoditelja/ovršenika 
+
+ 
+
+Kada se unose suvlasnici stambene zgrade kao ovrhovoditelj/ovršenik bira se kategorija Ostalo te se unose 
+potrebni podaci uključujući Račun specifične namjene. 
+
+ 
+
+ 
+
+ 
+
+Nakon što je kao ovrhovoditelj unesen na ovaj način, te je unesen Račun specifične namjene, kod unosa 
+novog ovrhovoditelja otvara se opcija za unos Pojedinačnih suvlasnika zgrade koja je ovdje i uključena 
+(inicijalno je isključena). 
+
+
+ 
+
+ 
+
+Ako se opcija uključi, obavezan je odabir i tzv. skupnog entiteta uz kojeg je ovaj pojedinačni suvlasnik vezan. 
+
+ 
+
+Ovrhovoditelje i ovršenike koji imaju postavljenu oznaku da se radi o pojedinačnim suvlasnicima nije 
+moguće birati drugdje u aplikaciji, ali će biti vidljivi u tekstu ovršnog prijedloga. 
+
+U zahtjevu za prisilnu naplatu, ovrhovoditelji i ovršenici s oznakom "Pojedinačni suvlasnik zgrade" neće biti 
+vidljivi. 
+
+ 
+
+Nakon spremanja podataka potrebno je unijeti i zastupnika/punomoćnika suvlasnika stambene zgrade 
+(Primjer 2). 
+
+ 
+
+Primjer 2. Unos zastupnika/punomoćnika kada su ovrhovoditelji/ovršenici suvlasnici stambene zgrade 
+
+ 
+
+Na gumb dodaje se punomoćnik. 
+
+ 
+
+
+Za dodavanje Upravitelja zgrade potrebno je odabrati kategoriju punomoćnik te pravnu osnovu Ugovor o 
+upravljanju zgradom. 
+
+ 
+
+Nakon toga se unose podaci o upravitelju ovisno je li fizička ili pravna osoba. 
+
+ 
+
+ 
+
+ 
+
+U slučaju da je punomoćnik za zastupanje suvlasnika stambene zgrade odvjetnik, može se birati kategorija 
+punomoćnik te pravna osnova odvjetnik. 
+
+ 
+
+Ako želite dodati kao punomoćnika upravitelja zgrade i odvjetnika isto je moguće te se dodaju oba 
+punomoćnika za suvlasnike. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+12. Primjeri kreiranja zahtjeva za naplatu 
+
+ 
+
+Primjer 1. više ovršenika - razmjerna odgovornost za dug 
+
+Kada ovrhovoditelj podnosi zahtjev za naplatu FINA-i temeljem rješenja u kojem više ovršenika razmjerno 
+odgovara za dug, ovrhovoditelj za svakog od njih podnosi poseban zahtjev. Na ekranu za kreiranje zahtjeva 
+odabire ovršenika za kojeg podnosi zahtjev za naplatu na način da izvrši izbor između ponuđenih ovršenika 
+u padajućem izborniku. 
+
+ 
+
+U kartici Dugovanja biti će prikazani iznosi tražbina (glavni dug i trošak) u iznosu koji otpada na tog 
+ovršenika odnosno dug se u slučaju više ovršenika koji odgovaraju razmjerno dijeli s brojem ovršenika iz 
+prijedloga i prikazuje se u razmjernom dijelu. 
+
+Kada se radi o rješenju o ovrsi s više ovršenika, ovrhovoditelj mora po potrebi ažurirati podatak o datumu 
+pravomoćnosti i ovršnosti na način da upiše datum pravomoćnosti i ovršnosti koji se odnosi baš na tog 
+ovršenika, a prema podacima upisanim na potvrdi pravomoćnosti i ovršnosti u PDF-u. 
+
+
+ 
+
+ 
+
+Primjer 2. više ovrhovoditelja 
+
+Svaki ovrhovoditelj iz rješenja o ovrsi podnosi zahtjev za naplatu za svoju tražbinu, pri čemu se tražbina s 
+osnova troškova prikazuje svakom ovrhovoditelju u njegovom razmjenom dijelu, ovisno o ukupnom broju 
+ovrhovoditelja iz rješenja o ovrsi. 
+
+U polju Iznos za naplatu prikazuje se po svakoj stavci troška ukupan iznos troška koji pripada tom 
+ovrhovoditelju (uključujući PDV ako je zatražen). 
+
+Ako ovrhovoditelj koji podnosi zahtjev za naplatu nije u rješenju o ovrsi naznačen kao primatelj sredstava 
+za iznos troška, morat će za isplatu troškova unijeti podatke o svom računu. 
+
+
+ 
+
+ 
+
+Primjer 3. više ovršenika – solidarna odgovornost za dug 
+
+Kada ovrhovoditelj podnosi zahtjev za naplatu FINA-i temeljem rješenja u kojem više ovršenika solidarno 
+odgovara za dug, ovrhovoditelj može za neke ili sve ovršenike iz rješenja zatražiti naplatu jednim 
+zahtjevom. 
+
+Ovršenike za koje podnosi zahtjev za naplatu odabire na ekranu za kreiranje zahtjeva između ponuđenih 
+ovršenika u padajućem izborniku. 
+
+ 
+
+PDF zahtjeva sadrži podatke o svim solidarnim ovršenicima koje je ovrhovoditelj odabrao i na teret kojih 
+traži naplatu. 
+
+
+Primjer 4. umanjenje duga 
+
+Ako je ovršenik djelomično podmirio dug te ovrhovoditelj potražuje samo ostatak duga, dužan je u kartici 
+Dugovanja urediti tražbine, uključujući troškove postupka, na način da po svakoj stavci iskaže preostali 
+iznos duga (s osnova glavnice, kamata, troškova). 
+
+Ovrhovoditelj u polje Iznos glavnice može upisati umanjeni iznos glavnice ili, ako je u cijelosti podmirena, 
+iznos 0. 
+
+U polju Obračunata kamata inicijalno se prikazuje iznos prethodno obračunate kamate ako je ista sadržana 
+u prijedlogu, a ako nije to polje se prikazuje prazno. Ovrhovoditelj može u to polje unijeti bilo koji iznos 
+kamate, ovisno o tome koliko je preostalo nenaplaćene kamate za tu glavnicu nakon djelomične uplate 
+duga. 
+
+U polju Datum do kojeg je obračunata kamata inicijalno je upisan datum do kojeg je prethodno obračunata 
+kamata iz prijedloga, a ako te kamate nije bilo, polje s datumom je prazno. Ako ovrhovoditelj prilikom 
+podnošenja zahtjeva u polju Obračunata kamata naznači iznos kamate za koji potražuje naplatu, obvezan 
+je u polju Datum do kojeg je obračunata kamata upisati taj datum. 
+
+U polje Početak tijeka kamate unosi se datum novog početka tijeka kamate na glavnicu. 
+
+ 
+
+ 
+
+ 
+
+
+13. Promjene u aplikaciji vezane za uvođenje EUR-a 
+
+ 
+
+Svi kalkulatori za pretvorbu u aplikaciji rade prema fiksnom tečaju konverzije 1 EUR = 7,53450 HRK. 
+
+Iznosi 0,03 kn i manje iznose 0 EUR. 
+
+ 
+
+13.1 Unos ovršnog prijedloga kada je vjerodostojna isprava u kunama 
+
+ 
+
+Za unos ovršnog prijedloga potrebno je slijediti upute iz poglavlja 3. ovog priručnika. 
+
+Prilikom dodavanja tražbine na kartici Vjerodostojne isprave i tražbine 
+
+ 
+
+kao defaultna valuta postavljen je EUR, a korisnicima je omogućen kalkulator za preračunavanje kunskog 
+iznosa u EUR. 
+
+Potrebno je odabrati polje za preračun (1.), unijeti iznos (2.) i odabrati gumb Pretvori HRK u EUR (3.). 
+
+ 
+
+ 
+
+Korisnik može i sam preračunati kunski iznos (izvan aplikacije) iz vjerodostojne isprave i odmah upisati 
+iznos. 
+
+ 
+
+ 
+
+
+Kod dodavanja troškova postupka na kartici Troškovi postupka 
+
+ 
+
+svi iznosi se odmah izražavaju u EUR i izračunavaju se prema vrijednosti glavnice kao i do sada 
+
+ 
+
+ 
+
+13.2 Unos dopune/ispravka ovršnog prijedloga kreiranjem iz postojećeg kada je 
+raniji ovršni prijedlog bio u kunama 
+
+ 
+
+Za unos dopune/ispravka ovršnog prijedloga potrebno je slijediti upute iz poglavlja 5. ovog priručnika. 
+
+Svi iznos u kunama u ovršnom prijedlogu izrađenom na način kreiraj Novi iz postojećeg će automatski 
+
+biti preračunati u EUR, uključujući troškove postupka. 
+
+ 
+
+ 
+
+Sve iznose, uključujući troškove postupka, korisnik može u dopuni/ispravku uređivati ili brisati. 
+
+Napomena: Pravilnik o izmjenama i dopunama Pravilnika o naknadi i nagradi javnih bilježnika u ovršnom 
+postupku objavljen je u Narodnim novinama br. 154/22., stupa na snagu 1. siječnja 2023. godine. 
+
+
+13.3 Unos zahtjeva za prisilnu naplatu u EUR kada je ovršni prijedlog i rješenje o 
+ovrsi izdano u kunama 
+
+ 
+
+Za kreiranje zahtjeva za naplatu pravomoćnog i ovršnog rješenja o ovrsi na temelju vjerodostojne isprave 
+u elektroničkom obliku potrebno je slijediti upute iz poglavlja 8. ovog priručnika. 
+
+Svi iznos u kunama iz pravomoćnog i ovršnog rješenja o ovrsi automatski će biti preračunati u EUR, 
+uključujući troškove postupka. 
+
+Isto je vidljivo u aplikaciji na način da postoji oznaka sa slike dolje, kilikom na koju se vidi obavijest o 
+automatskom preračunavanju. 
+
+ 
+
+Bilo koji iznos korisnik može ažurirati prema pravilima kao i u ranijim kunskim zahtjevima za prisilnu 
+naplatu. 
+
+Napomena: U slučaju da je o rješenju o ovrsi dosuđena kunska protuvrijednost tražbine u EUR u zahtjevu 
+za prisilnu naplatu se automatski postavlja vrijednost u EUR 
+
+ 
+
+ 
+
+ 
+
+

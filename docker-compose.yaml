@@ -1,0 +1,7 @@
+version: '1'
+
+services:
+  moj_chatbot:
+    image: moj_search:latest
+    ports:
+      - "7000:7000"
