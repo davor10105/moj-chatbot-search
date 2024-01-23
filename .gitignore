@@ -2,3 +2,4 @@
 env
 __pycache__
 search/data/model_data
+postgres_secrets.py

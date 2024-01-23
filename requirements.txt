@@ -13,3 +13,5 @@ langchain==0.0.352
 unstructured==0.11.6
 unstructured[pdf]
 chromadb==0.4.21
+psycopg2
+rank_bm25==0.2.2
