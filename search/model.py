@@ -12,7 +12,10 @@ from langchain.docstore.document import Document
 from rank_bm25 import BM25Okapi
 from unidecode import unidecode
 import re
+<<<<<<< HEAD
 from postgres_secrets import *
+=======
+>>>>>>> dcafa51a7182cc60dc7009540f7d695ee1b6933c
 
 
 def clean_text(t):
@@ -55,11 +58,19 @@ class SearchModel:
         """
 
         conn = psycopg2.connect(
+<<<<<<< HEAD
             dbname=DBNAME,
             user=USER,
             password=PASSWORD,
             host=HOST,
             port=PORT,
+=======
+            dbname="postgres",
+            user="postgres",
+            password="TWbyVdR1rt%+",
+            host="3.75.212.152",
+            port="5432",
+>>>>>>> dcafa51a7182cc60dc7009540f7d695ee1b6933c
         )
         cur = conn.cursor()
         cur.execute(f"SELECT * FROM pages")
