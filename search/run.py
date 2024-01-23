@@ -22,10 +22,11 @@ question_model = api.model(
         "QuestionText": fields.String,
     },
 )
+
 search_result = api.model(
     "SearchResult",
     {
-        "AnswerTexts": fields.List(fields.String),
+        "AnswerTexts": fields.List(fields.List(fields.String)),
     },
 )
 
@@ -50,5 +51,5 @@ class Query(Resource):
 
 
 if __name__ == "__main__":
-    # app.run(host="0.0.0.0", port=7000, debug=True)
-    serve(app=app, host="0.0.0.0", port=7000)
+    app.run(host="0.0.0.0", port=7000, debug=True)
+    # serve(app=app, host="0.0.0.0", port=7000)

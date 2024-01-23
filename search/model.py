@@ -7,6 +7,19 @@ from langchain.document_loaders import DirectoryLoader
 from langchain.text_splitter import SentenceTransformersTokenTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import Chroma
+import psycopg2
+from langchain.docstore.document import Document
+from rank_bm25 import BM25Okapi
+from unidecode import unidecode
+import re
+
+
+def clean_text(t):
+    t = unidecode(t)
+    t = re.sub(r"[^a-zA-Z ]+", " ", t)
+    t = re.sub(" +", " ", t)
+    t = t.lower()
+    return t
 
 
 def normalize_vector(vec):
@@ -40,10 +53,45 @@ class SearchModel:
             None
         """
 
-        documents = self.loader.load()
+        conn = psycopg2.connect(
+            dbname="postgres",
+            user="postgres",
+            password="TWbyVdR1rt%+",
+            host="3.75.212.152",
+            port="5432",
+        )
+        cur = conn.cursor()
+        cur.execute(f"SELECT * FROM pages")
+        examples = cur.fetchall()
+        cur.close()
+        conn.close()
+
+        documents = []
+        for example in examples:
+            doc = Document(
+                page_content=example[1],
+                metadata={
+                    "source": "local",
+                    "doc_id": example[0],
+                    "doc_real_id": example[2],
+                    "page": example[3],
+                },
+            )
+            documents.append(doc)
         split_documents = self.splitter.split_documents(documents)
+        tokenized_docs = []
+        for split_document in split_documents:
+            clean_content = clean_text(split_document.page_content)
+            tokenized_doc = self.splitter.tokenizer.tokenize(clean_content)
+            tokenized_docs.append(tokenized_doc)
+        self.bm25 = BM25Okapi(tokenized_docs)
+        self.split_documents = split_documents
+        """try:
+            db.delete_collection()
+        except:
+            pass
         db = Chroma.from_documents(split_documents, self.embeddings_model)
-        self.retriever = db.as_retriever()
+        self.retriever = db.as_retriever()"""
 
     def persist(self) -> None:
         """Persist this model into the passed directory."""
@@ -67,4 +115,16 @@ class SearchModel:
     def query(self, question):
         """Queries the chatbot"""
 
-        return [r.page_content for r in self.retriever.invoke(question)]
+        tokenized_query = self.splitter.tokenizer.tokenize(clean_text(question))
+        return [
+            [
+                r.metadata["doc_id"],
+                r.page_content,
+                r.metadata["doc_real_id"],
+                r.metadata["page"],
+            ]
+            for r in self.bm25.get_top_n(tokenized_query, self.split_documents, n=5)
+        ]
+
+
+# return [r.page_content for r in self.retriever.invoke(question)]
