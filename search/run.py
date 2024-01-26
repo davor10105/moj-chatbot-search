@@ -50,6 +50,18 @@ class Query(Resource):
             abort(400, str(e))
 
 
+@chatbot_ns.route("/train")
+class Train(Resource):
+    @api.response(200, "Success")
+    @api.response(400, "Error")
+    def post(self):
+        try:
+            model.train()
+            return "Success", 200
+        except Exception as e:
+            abort(400, str(e))
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=7000, debug=True)
     # serve(app=app, host="0.0.0.0", port=7000)
