@@ -17,6 +17,7 @@ from postgres_secrets import *
 
 def clean_text(t):
     t = unidecode(t)
+    t = re.sub(r"<.*?>", " ", t)
     t = re.sub(r"[^a-zA-Z ]+", " ", t)
     t = re.sub(" +", " ", t)
     t = t.lower()
@@ -25,6 +26,17 @@ def clean_text(t):
 
 def normalize_vector(vec):
     return vec / (np.linalg.norm(vec, axis=-1, keepdims=True) + 1e-9)
+
+
+class ScoredBM25Okapi(BM25Okapi):
+    def get_top_n_with_score(self, query, documents, n=5):
+        assert self.corpus_size == len(
+            documents
+        ), "The documents given don't match the index corpus!"
+
+        scores = self.get_scores(query)
+        top_n = np.argsort(scores)[::-1][:n]
+        return [(documents[i], scores[i] / len(query)) for i in top_n]
 
 
 class SearchModel:
@@ -42,9 +54,9 @@ class SearchModel:
             model_kwargs=model_kwargs,
             encode_kwargs=encode_kwargs,
         )
-        self.train()
+        self.load()
 
-    def train(self):
+    def train(self, system_id):
         """Trains a chatbot based on intent_examples
 
         Args:
@@ -62,7 +74,7 @@ class SearchModel:
             port=PORT,
         )
         cur = conn.cursor()
-        cur.execute(f"SELECT * FROM pages")
+        cur.execute(f"SELECT * FROM pages WHERE system_id='{system_id}'")
         examples = cur.fetchall()
         cur.close()
         conn.close()
@@ -85,8 +97,10 @@ class SearchModel:
             clean_content = clean_text(split_document.page_content)
             tokenized_doc = self.splitter.tokenizer.tokenize(clean_content)
             tokenized_docs.append(tokenized_doc)
-        self.bm25 = BM25Okapi(tokenized_docs)
-        self.split_documents = split_documents
+        self.bm25_indices[system_id] = ScoredBM25Okapi(tokenized_docs)
+        self.split_documents[system_id] = split_documents
+
+        self.persist()
         """try:
             db.delete_collection()
         except:
@@ -96,36 +110,41 @@ class SearchModel:
 
     def persist(self) -> None:
         """Persist this model into the passed directory."""
-        with open(os.path.join("data/intent_vectors.pickle"), "wb") as f:
-            pickle.dump(self.intent_vectors, f)
-        with open(os.path.join("data/intent_labels.pickle"), "wb") as f:
-            pickle.dump(self.intent_labels, f)
+        with open("bm25_indices.pickle", "wb") as f:
+            pickle.dump(self.bm25_indices, f)
+        with open("split_documents.pickle", "wb") as f:
+            pickle.dump(self.split_documents, f)
 
     def load(self):
         """Loads trained component"""
         try:
-            with open(os.path.join("data/intent_vectors.pickle"), "rb") as f:
-                self.intent_vectors = pickle.load(f)
-            with open(os.path.join("data/intent_labels.pickle"), "rb") as f:
-                self.intent_labels = pickle.load(f)
-
+            with open("bm25_indices.pickle", "rb") as f:
+                self.bm25_indices = pickle.load(f)
+            with open("split_documents.pickle", "rb") as f:
+                self.split_documents = pickle.load(f)
+            print("Loaded existing indices.")
         except:
-            self.intent_vectors = {}
-            self.intent_labels = {}
+            self.bm25_indices = {}  # system_id: bm25
+            self.split_documents = {}
+            print("Started new indices.")
 
-    def query(self, question):
+    def query(self, question, system_id):
         """Queries the chatbot"""
 
         tokenized_query = self.splitter.tokenizer.tokenize(clean_text(question))
-        return [
-            [
-                r.metadata["doc_id"],
-                r.page_content,
-                r.metadata["doc_real_id"],
-                r.metadata["page"],
-            ]
-            for r in self.bm25.get_top_n(tokenized_query, self.split_documents, n=5)
+        return_documents = [
+            {
+                "PageID": r[0].metadata["doc_id"],
+                "Text": r[0].page_content,
+                "DocumentID": r[0].metadata["doc_real_id"],
+                "Page": r[0].metadata["page"],
+                "Score": r[1],
+            }
+            for r in self.bm25_indices[system_id].get_top_n_with_score(
+                tokenized_query, self.split_documents[system_id], n=5
+            )
         ]
+        return return_documents
 
 
 # return [r.page_content for r in self.retriever.invoke(question)]

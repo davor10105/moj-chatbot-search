@@ -16,10 +16,29 @@ model = SearchModel()
 
 chatbot_ns = api.namespace("search", description="Used to query the search")
 
+train_system_id_model = api.model(
+    "SystemID",
+    {
+        "SystemID": fields.String,
+    },
+)
+
 question_model = api.model(
     "Question",
     {
         "QuestionText": fields.String,
+        "SystemID": fields.String,
+    },
+)
+
+document_model = api.model(
+    "Document",
+    {
+        "PageID": fields.String,
+        "Text": fields.String,
+        "DocumentID": fields.String,
+        "Page": fields.String,
+        "Score": fields.Float,
     },
 )
 
@@ -33,14 +52,15 @@ search_result = api.model(
 
 @chatbot_ns.route("/query")
 class Query(Resource):
-    @api.response(200, "Success", search_result)
+    @api.response(200, "Success", [document_model])
     @api.response(400, "Error")
     @api.expect(question_model)
     def post(self):
         try:
             data = request.get_json()
             text = data["QuestionText"]
-            search_results = model.query(text)
+            system_id = data["SystemID"]
+            search_results = model.query(text, system_id)
             return {
                 "SearchResult": {
                     "AnswerTexts": search_results,
@@ -54,9 +74,12 @@ class Query(Resource):
 class Train(Resource):
     @api.response(200, "Success")
     @api.response(400, "Error")
+    @api.expect(train_system_id_model)
     def post(self):
         try:
-            model.train()
+            data = request.get_json()
+            system_id = data["SystemID"]
+            model.train(system_id)
             return "Success", 200
         except Exception as e:
             abort(400, str(e))
