@@ -124,9 +124,14 @@ class SearchModel:
                 self.split_documents = pickle.load(f)
             print("Loaded existing indices.")
         except:
-            self.bm25_indices = {}  # system_id: bm25
-            self.split_documents = {}
+            # self.bm25_indices = {}  # system_id: bm25
+            # self.split_documents = {}
+            self.reload()
             print("Started new indices.")
+
+    def reload(self):
+        for i in range(1, 6):
+            self.train(str(i))
 
     def query(self, question, system_id):
         """Queries the chatbot"""
