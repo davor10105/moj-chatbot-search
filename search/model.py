@@ -42,11 +42,11 @@ class ScoredBM25Okapi(BM25Okapi):
 class SearchModel:
     def __init__(self):
         self.loader = DirectoryLoader("data/documents/", glob="*.pdf")
+        model_name = "./data/model_data/sentence-transformers_paraphrase-multilingual-MiniLM-L12-v2"
         self.splitter = SentenceTransformersTokenTextSplitter(
             chunk_overlap=50,
             model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         )
-        model_name = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
         model_kwargs = {"device": "cpu"}
         encode_kwargs = {"normalize_embeddings": True}
         self.embeddings_model = HuggingFaceEmbeddings(
