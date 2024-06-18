@@ -131,10 +131,15 @@ class SearchModel:
 
     def reload(self):
         for i in range(1, 6):
-            self.train(str(i))
+            try:
+                self.train(str(i))
+            except:
+                pass
 
     def query(self, question, system_id):
         """Queries the chatbot"""
+        if system_id not in self.bm25_indices:
+            return []
 
         tokenized_query = self.splitter.tokenizer.tokenize(clean_text(question))
         return_documents = [
