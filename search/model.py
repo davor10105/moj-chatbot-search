@@ -45,7 +45,7 @@ class SearchModel:
         model_name = "./data/model_data/sentence-transformers_paraphrase-multilingual-MiniLM-L12-v2"
         self.splitter = SentenceTransformersTokenTextSplitter(
             chunk_overlap=50,
-            model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+            model_name=model_name,
         )
         model_kwargs = {"device": "cpu"}
         encode_kwargs = {"normalize_embeddings": True}
